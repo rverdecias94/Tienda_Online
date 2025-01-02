@@ -14,7 +14,7 @@ const Header = ({ toggleSidebar }) => {
 
   return (
     <>
-      <AppBar position="static" sx={{ width: '100%', margin: 0, padding: 0, position: "fixed", height: "10vh", zIndex: 1 }}>
+      <AppBar position="static" sx={{ width: '100%', margin: 0, padding: 0, zIndex: 1 }}>
         <Toolbar>
           <IconButton color="inherit" onClick={toggleSidebar}>
             <MenuIcon />

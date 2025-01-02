@@ -169,8 +169,8 @@ const TiendaOnline = ({ categoriaSeleccionada }) => {
       : productos.filter((producto) => producto.categoria === categoriaSeleccionada);
 
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
-      <Container maxWidth="lg" sx={{ flexGrow: 1, position: 'relative', marginTop: '64px' }}>
+    <Box sx={{ display: 'flex', flexDirection: 'column', height: '100vh', }}>
+      <Container maxWidth="lg" sx={{ flexGrow: 1, position: 'relative', padding: '20px 0', }}>
         <Grid container spacing={3}>
           {productosFiltrados.map((producto, index) => {
             const itemEnCarrito = carrito.find(item => item.id === producto.id);

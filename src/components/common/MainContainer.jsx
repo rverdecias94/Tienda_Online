@@ -17,7 +17,6 @@ const MainContainer = () => {
 
       <Header toggleSidebar={toggleSidebar} />
 
-
       <Box sx={{ display: 'flex', flexGrow: 1, overflow: 'hidden' }}>
 
         <Box
@@ -36,7 +35,6 @@ const MainContainer = () => {
             setCategoriaSeleccionada={setCategoriaSeleccionada}
           />
         </Box>
-
 
         <Box
           sx={{

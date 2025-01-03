@@ -23,81 +23,81 @@ import CloseIcon from '@mui/icons-material/Close';
 const productos = [
   {
     id: 1,
-    nombre: "Smartphone Pro X",
-    precio: 599.99,
-    imagen: "https://i.pinimg.com/736x/93/10/fb/9310fb24bc02f5285af319e6219215fa.jpg",
-    categoria: "Electrónica",
-    descripcion: "Potente smartphone con pantalla de alta resolución, cámara de última generación y batería de larga duración.",
+    nombre: "Galleticas Comapan",
+    precio: 160,
+    imagen: "https://comapan.com.co/wp-content/uploads/2023/11/Galleticas-surtidas-No.-1-Coco-fresa-naranja-Paquete-x-6-1.webp",
+    categoria: "Confituras",
+    descripcion: "Galleticas surtidas de coco, fresa y naranja, ideales para acompañar tus desayunos o meriendas.",
     caracteristicas: [
-      "Pantalla OLED 6.5 pulgadas",
-      "Cámara principal de 108MP"
+      "Hechas con ingredientes naturales",
+      "Sin conservantes artificiales",
     ],
     stock: 12
   },
   {
     id: 2,
-    nombre: "Laptop Ultradelgada",
-    precio: 1299.99,
-    imagen: "https://i.pinimg.com/736x/41/3e/57/413e57a588e047bce4c4519f54288123.jpg",
-    categoria: "Electrónica",
-    descripcion: "Laptop ultraligera con excelente rendimiento y diseño compacto ideal para profesionales.",
+    nombre: "Galleticas Tommy",
+    precio: 140,
+    imagen: "https://img1.elyerromenu.com/images/fagales-market/galleticas-redonditas/img.webp",
+    categoria: "Confituras",
+    descripcion: "Galleticas redonditas de mantequilla, perfectas para disfrutar en cualquier momento del día.",
     caracteristicas: [
-      "Pantalla Full HD de 15 pulgadas",
-      "Procesador Intel i7 de última generación",
-      "16GB RAM",
-      "SSD de 512GB"
+      "Elaboradas con mantequilla de alta calidad",
+      "Sabor suave y delicioso",
+      "Formato de 12 unidades",
+      "Peso neto 300g"
     ],
     stock: 5
   },
   {
     id: 3,
-    nombre: "Auriculares Inalámbricos",
-    precio: 199.99,
-    imagen: "https://i.pinimg.com/736x/51/3b/8f/513b8fab7c1bbb64b7a57a4f19bb82f0.jpg",
-    categoria: "Electrónica",
-    descripcion: "Auriculares inalámbricos con cancelación de ruido y gran calidad de sonido.",
+    nombre: "Galletas Maria",
+    precio: 300,
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoKSCD-tOjP_WFsmQmIjIGI1BlyoA42J6zPAzRVTf0T6ZFBzYBmwt_avVeK3Pb-FAErmk&usqp=CAU",
+    categoria: "Confituras",
+    descripcion: "Galletas Maria de fabricación artesanal, ideales para acompañar tus bebidas calientes.",
     caracteristicas: [
-      "Bluetooth 5.0",
-      "Cancelación activa de ruido",
-      "Autonomía de hasta 20 horas",
-      "Resistente al agua IPX5"
+      "Elaboradas con ingredientes naturales",
+      "Sabor clásico y delicioso",
+      "Formato de 24 unidades",
+      "Peso neto 500g"
     ],
     stock: 15
   },
   {
     id: 4,
-    nombre: "Zapatillas de hombre",
-    precio: 599.99,
-    imagen: "https://i.pinimg.com/736x/17/0f/70/170f70ef2273b7fd2e2a0de43a337546.jpg",
-    categoria: "Ropa",
-    descripcion: "Zapatillas deportivas cómodas y modernas para el uso diario o actividades deportivas.",
+    nombre: "Nutela",
+    precio: 2500,
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEntXKRTS1dBx6fJGEIWnWItt2QsGisouuhQ&s",
+    categoria: "Confituras",
+    descripcion: "Crema de avellanas y cacao, perfecta para untar en pan, galletas o frutas.",
     caracteristicas: [
-      "Material transpirable",
-      "Suela antideslizante",
-      "Diseño ergonómico",
-      "Disponible en varios colores"
+      "Elaborada con ingredientes de alta calidad",
+      "Sin aceite de palma",
+      "Formato de 750g",
+      "Envase reciclable"
     ],
     stock: 8
   },
   {
     id: 5,
-    nombre: "Zapatillas",
-    precio: 1299.99,
-    imagen: "https://i.pinimg.com/736x/98/4d/57/984d572835b623a9d2c8e1679a196627.jpg",
-    categoria: "Ropa",
-    descripcion: "Zapatillas premium con diseño innovador para un estilo único.",
+    nombre: "Jugo de Piña",
+    precio: 250,
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQgOHlT9BKsN_rjtzU_lzOypz9CsR_dqP2Gw&s",
+    categoria: "Bebidas",
+    descripcion: "Jugo de piña natural, sin azúcares añadidos ni conservantes artificiales.",
     caracteristicas: [
-      "Material de alta calidad",
-      "Suela resistente al desgaste",
-      "Amortiguación avanzada",
-      "Estilo moderno"
+      "Elaborado con piñas frescas",
+      "Alto contenido de vitamina C",
+      "Contenido neto 250ml",
+
     ],
     stock: 5
   },
   {
     id: 6,
     nombre: "Mayonesa",
-    precio: 199.99,
+    precio: 1200,
     imagen: "https://i.pinimg.com/736x/86/08/f2/8608f2f30d0d81533fa83fe5403ef5d0.jpg",
     categoria: "Alimentos",
     descripcion: "Mayonesa cremosa y deliciosa ideal para acompañar tus comidas.",
@@ -112,7 +112,7 @@ const productos = [
   {
     id: 7,
     nombre: "Carne deshuesada",
-    precio: 599.99,
+    precio: 3780,
     imagen: "https://i.pinimg.com/736x/9a/a4/84/9aa4842edd526e934aa71af5690e49f8.jpg",
     categoria: "Alimentos",
     descripcion: "Carne de alta calidad, lista para cocinar.",
@@ -127,7 +127,7 @@ const productos = [
   {
     id: 8,
     nombre: "Aceite",
-    precio: 1299.99,
+    precio: 850,
     imagen: "https://i.pinimg.com/736x/6f/5b/8d/6f5b8dd08dff0f0aab4eaafc1fd96bec.jpg",
     categoria: "Alimentos",
     descripcion: "Aceite vegetal de alta calidad ideal para cocinar y freír.",
@@ -142,7 +142,7 @@ const productos = [
   {
     id: 9,
     nombre: "Harina de Trigo",
-    precio: 199.99,
+    precio: 1000,
     imagen: "https://i.pinimg.com/736x/9f/61/62/9f61626b81643949a344e690346e961d.jpg",
     categoria: "Alimentos",
     descripcion: "Harina de trigo refinada ideal para panes, pasteles y más.",

@@ -20,14 +20,14 @@ const Sidebar = ({ categoriaSeleccionada, setCategoriaSeleccionada }) => {
       >
         <Typography variant="h5" sx={{ fontSize: "inherit" }}>Búsqueda por Categorías</Typography>
       </Stack>
-      <FormControl component="fieldset" sx={{ color: "white" }}>
+      <FormControl component="fieldset" sx={{ color: { xs: "white", md: "black" } }}>
         <RadioGroup
           value={categoriaSeleccionada}
           onChange={(e) => setCategoriaSeleccionada(e.target.value)}
         >
           <FormControlLabel value="Todos" control={<Radio />} label="Todos" />
-          <FormControlLabel value="Electrónica" control={<Radio />} label="Electrónica" />
-          <FormControlLabel value="Ropa" control={<Radio />} label="Ropa" />
+          <FormControlLabel value="Confituras" control={<Radio />} label="Confituras" />
+          <FormControlLabel value="Bebidas" control={<Radio />} label="Bebidas" />
           <FormControlLabel value="Alimentos" control={<Radio />} label="Alimentos" />
         </RadioGroup>
       </FormControl>

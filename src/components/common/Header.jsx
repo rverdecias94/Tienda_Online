@@ -7,7 +7,7 @@ import { CartContext } from '../../context/CartContext';
 import { useNavigate } from 'react-router-dom';
 import CartDrawer from './CartDrawer';
 
-const Header = ({ toggleSidebar }) => {
+const Header = ({ toggleSidebar, page = "Home" }) => {
   const { carrito } = useContext(CartContext);
   const navigate = useNavigate();
   const [cartOpen, setCartOpen] = useState(false);
@@ -16,13 +16,15 @@ const Header = ({ toggleSidebar }) => {
     <>
       <AppBar position="static" sx={{ width: '100%', margin: 0, padding: 0, zIndex: 1 }}>
         <Toolbar>
-          <IconButton color="inherit" onClick={toggleSidebar}>
-            <MenuIcon />
-          </IconButton>
+          {page === "Home" &&
+            <IconButton color="inherit" onClick={toggleSidebar}>
+              <MenuIcon />
+            </IconButton>
+          }
           <Typography variant="h6" sx={{ flexGrow: 1 }}>
             Tienda Online
           </Typography>
-          <Button color="inherit" onClick={() => navigate('/')}>
+          <Button color='inherit' sx={{ border: "1px solid white" }} onClick={() => navigate('/')}>
             Productos
           </Button>
           <IconButton color="inherit" onClick={() => setCartOpen(true)}>
@@ -42,6 +44,7 @@ const Header = ({ toggleSidebar }) => {
 };
 Header.propTypes = {
   toggleSidebar: PropTypes.func.isRequired,
+  page: PropTypes.string.isRequired,
 };
 
 

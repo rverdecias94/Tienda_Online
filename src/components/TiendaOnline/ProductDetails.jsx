@@ -41,11 +41,10 @@ const ProductDetail = () => {
 
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
-      <Header />
+      <Header page={"Detalles"} />
       <Box sx={{ display: 'flex', flexGrow: 1, marginTop: '10vh' }}>
-        <Container maxWidth="lg" sx={{ marginLeft: '20vw', width: '80vw', position: 'relative' }}>
+        <Container maxWidth="lg" sx={{ width: '80vw', position: 'relative' }}>
           <Grid container spacing={4}>
-            {/* Image Gallery Section */}
             <Grid item xs={12} md={6} >
 
               <Stack direction="column" spacing={2}>
@@ -71,7 +70,6 @@ const ProductDetail = () => {
                   />
                 </Box>
 
-                {/* Thumbnail images (if multiple images exist) */}
                 <Stack
                   direction="row"
                   spacing={2}
@@ -109,14 +107,12 @@ const ProductDetail = () => {
               </Stack>
             </Grid>
 
-            {/* Product Details Section */}
             <Grid item xs={12} md={6}>
               <Stack spacing={2}>
                 <Typography variant="h4" component="h1" gutterBottom>
                   {producto.nombre}
                 </Typography>
 
-                {/* Rating */}
                 <Stack
                   direction="row"
                   alignItems="center"
@@ -133,17 +129,14 @@ const ProductDetail = () => {
                   </Typography>
                 </Stack>
 
-                {/* Price */}
                 <Typography variant="h5" color="primary" gutterBottom>
                   ${producto.precio.toFixed(2)}
                 </Typography>
 
-                {/* Description */}
                 <Typography variant="body1" color="text.secondary" paragraph>
                   {producto.descripcion}
                 </Typography>
 
-                {/* Features */}
                 <Box sx={{ my: 2 }}>
                   <Typography variant="subtitle1" fontWeight="bold" gutterBottom>
                     Características principales:

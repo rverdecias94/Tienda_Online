@@ -28,6 +28,7 @@ const Sidebar = ({ categoriaSeleccionada, setCategoriaSeleccionada }) => {
           <FormControlLabel value="Todos" control={<Radio />} label="Todos" />
           <FormControlLabel value="Confituras" control={<Radio />} label="Confituras" />
           <FormControlLabel value="Bebidas" control={<Radio />} label="Bebidas" />
+          <FormControlLabel value="Lácteos" control={<Radio />} label="Lácteos" />
           <FormControlLabel value="Alimentos" control={<Radio />} label="Alimentos" />
         </RadioGroup>
       </FormControl>

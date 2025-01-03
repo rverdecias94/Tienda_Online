@@ -153,6 +153,62 @@ const productos = [
       "Envasada en papel reciclable"
     ],
     stock: 25
+  },
+  {
+    id: 10,
+    nombre: "Arroz Integral",
+    precio: 550,
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcKNvaxCXI9JwvOY2CsSglhbT1-hLnujCZzQ&s",
+    categoria: "Alimentos",
+    descripcion: "Arroz integral de grano largo, rico en fibra y nutrientes.",
+    caracteristicas: [
+      "Grano largo y entero",
+      "Formato de 1kg",
+      "Ideal para dietas saludables",
+    ],
+    stock: 5
+  },
+  {
+    id: 11,
+    nombre: "Sidra",
+    precio: 1100,
+    imagen: "https://vinoteca.gt/cdn/shop/products/La_Gaita_Sidra_sin_Alcohol_750ml_600x.jpg?v=1650382333",
+    categoria: "Bebidas",
+    descripcion: "Sidra sin alcohol, perfecta para brindar en ocasiones especiales.",
+    caracteristicas: [
+      "Elaborada con manzanas frescas",
+      "Sin alcohol ni azúcares añadidos",
+      "Contenido neto 750ml",
+    ],
+    stock: 5
+  },
+  {
+    id: 12,
+    nombre: "Helado Gustó",
+    precio: 800,
+    imagen: "https://alawao.com/wp-content/uploads/2023/03/cuba-alimentos-restuarantes-viajes-envios-medicina-pote-helado-chocolate-1Lt-HG-942024.jpeg",
+    categoria: "Lácteos",
+    descripcion: "Helado de chocolate, perfecto para disfrutar",
+    caracteristicas: [
+      "Contenido neto 1L",
+      "Sabor chocolate",
+      "Envase reciclable",
+    ],
+    stock: 5
+  },
+  {
+    id: 13,
+    nombre: "Helado Cid",
+    precio: 1000,
+    imagen: "https://grangcuba.com/tiendacu/wp-content/uploads/2023/10/10_e2672c-362x503.png",
+    categoria: "Lácteos",
+    descripcion: "Helado de vainilla, perfecto para disfrutar",
+    caracteristicas: [
+      "Contenido neto 1L",
+      "Sabor vainilla",
+      "Envase reciclable",
+    ],
+    stock: 5
   }
 ];
 
